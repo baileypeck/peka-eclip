@@ -20,7 +20,7 @@ echo "#################"
 #$ -l h_vmem=1000G
 #$ -l h_rt=1000:0:0
 #################
-
+export NXF_SINGULARITY_CACHEDIR=/Users/bdpeck/singularity
 REFDIR=/Users/bdpeck/ref
 cd /Users/bdpeck
 module load  stack/2022.2
